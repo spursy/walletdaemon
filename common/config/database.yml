@@ -1,0 +1,30 @@
+development: &defaults
+  adapter: mysql2
+  # host: 10.35.11.134
+  # encoding: utf8
+  # database: mekoo
+  # username: peatio
+  # password: nextpwd
+  host: localhost
+  encoding: utf8
+  database: mekoo
+  username: spursyy
+  password: '123456'
+  pool: 10
+  reconnect: true
+test:
+  <<: *defaults
+  host: localhost
+  username: spursyy
+  password: "123456"
+  database: peatio_development
+
+production:
+  adapter: mysql2
+  host: localhost
+  encoding: utf8
+  database: mekoo
+  username: peatio
+  password: nextpwd
+  pool: 10
+  reconnect: true

@@ -1,0 +1,53 @@
+{
+    "appenders": {
+        "out": {"type": "console"},
+        "logger": {
+            "type": "dateFile",
+            "filename": "logs/server.log",
+            "pattern": "yyyy-MM-dd",
+            "maxLogSize": 1024,
+            "alwaysIncludePattern": false,
+            "backups": 10
+        },
+        "error": {
+            "type": "dateFile",
+            "filename": "logs/error.log",
+            "pattern": "yyyy-MM-dd",
+            "maxLogSize": 1024,
+            "alwaysIncludePattern": false,
+            "backups": 10
+        },
+        "info_exchange": {
+            "type": "dateFile",
+            "filename": "logs/server-exchange.log",
+            "pattern": "yyyy-MM-dd",
+            "maxLogSize": 1024,
+            "alwaysIncludePattern": false,
+            "backups": 10
+        },
+        "synergic_logger": {
+            "type": "dateFile",
+            "filename": "logs/synergiclogger.log",
+            "pattern": "yyyy-MM-dd",
+            "maxLogSize": 1024,
+            "alwaysIncludePattern": false,
+            "backups": 10
+        },
+        "error_exchange": {
+            "type": "dateFile",
+            "filename": "logs/error-exchange.log",
+            "pattern": "yyyy-MM-dd",
+            "maxLogSize": 1024,
+            "alwaysIncludePattern": false,
+            "backups": 10
+        }
+    },
+    "categories": {
+        "default": {"appenders": ["out"], "level": "info"},
+        "logger": {"appenders": ["logger"], "level": "info"},
+        "synergiclogger": {"appenders": ["synergic_logger"], "level": "info"},
+        "error": {"appenders": ["error"], "level": "info"},
+        "info_exchange": {"appenders": ["info_exchange"], "level": "info"},
+        "error_exchange": {"appenders": ["error_exchange"], "level": "info"}
+    }
+}

@@ -1,0 +1,4 @@
+
+[2018-06-21T19:27:18.083] [INFO] logger - SendAMQPQueue>>>  Send {"commandId":100000,"data":{"fromAddress":"124","toAddress":"0x1213","contractAddress":"0x33333","value":"0.2323","txId":"23423423l4j2l34l23j","type":"ERC20"}} to amqp.
+[2018-06-21T19:39:45.946] [INFO] logger - SendAMQPQueue>>>  Send {"commandId":100000,"data":{"fromAddress":"124","toAddress":"0x1213","contractAddress":"0x33333","value":"0.2323","txId":"23423423l4j2l34l23j","type":"ERC20"}} to amqp.
+[2018-06-21T19:48:09.808] [INFO] logger - SendAMQPQueue>>>  Send {"commandId":100000,"data":{"fromAddress":"124","toAddress":"0x1213","contractAddress":"0x33333","value":"0.2323","txId":"23423423l4j2l34l23j","type":"ERC20"}} to amqp.

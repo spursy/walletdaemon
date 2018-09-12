@@ -1,0 +1,17 @@
+development: &defaults
+  hostname: 10.35.11.134
+  port: 5672
+  username: whl
+  password: '123456'
+
+test: &defaults
+  hostname: localhost
+  port: 5672
+  username: richman
+  password: 'HxB7cVXC'
+  
+production:
+  hostname: localhost
+  port: 5672
+  username: richman
+  password: 'HxB7cVXC'

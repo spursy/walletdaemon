@@ -1,0 +1,11 @@
+[2018-05-31T16:55:06.511] [INFO] logger - getBlockNumber>>> ERROR >>>[1527756906507]>>>  ReferenceError: blockNumber is not defined
+    at getBlockNumber (D:\mywok\blockchain\trunk\dax\lib\node\nodedaemons\test\test-web3-backup.js:10:45)
+    at Object.<anonymous> (D:\mywok\blockchain\trunk\dax\lib\node\nodedaemons\test\test-web3-backup.js:60:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3

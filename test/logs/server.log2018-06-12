@@ -1,0 +1,20 @@
+[2018-06-12T14:50:33.925] [INFO] logger - getBlockNumber>>> ERROR >>>[1528786233899]>>>  TypeError: Cannot read property 'hash' of null
+    at getBlockNumber (D:\mywok\blockchain\trunk\dax\lib\node\nodedaemons\test\test-web3-backup.js:20:31)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-06-12T14:50:40.300] [INFO] logger - getBlockNumber>>> ERROR >>>[1528786240252]>>>  TypeError: Cannot read property 'hash' of null
+    at getBlockNumber (D:\mywok\blockchain\trunk\dax\lib\node\nodedaemons\test\test-web3-backup.js:20:31)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-06-12T14:50:42.735] [INFO] logger - getBlockNumber>>> ERROR >>>[1528786242691]>>>  TypeError: Cannot read property 'hash' of null
+    at getBlockNumber (D:\mywok\blockchain\trunk\dax\lib\node\nodedaemons\test\test-web3-backup.js:20:31)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-06-12T14:50:45.596] [INFO] logger - getBlockNumber>>> ERROR >>>[1528786245508]>>>  TypeError: Cannot read property 'hash' of null
+    at getBlockNumber (D:\mywok\blockchain\trunk\dax\lib\node\nodedaemons\test\test-web3-backup.js:20:31)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-06-12T14:50:47.799] [INFO] logger - getBlockNumber>>> ERROR >>>[1528786247751]>>>  TypeError: Cannot read property 'hash' of null
+    at getBlockNumber (D:\mywok\blockchain\trunk\dax\lib\node\nodedaemons\test\test-web3-backup.js:20:31)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)

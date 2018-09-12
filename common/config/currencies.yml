@@ -1,0 +1,16 @@
+- id: 5
+  key: elendcoin
+  code: elend
+  handler: ELEND
+  symbol: "E"
+  coin: true
+  enabled: true
+  quick_withdraw_max: 0
+  deposit_max: 1000
+  rpc: http://localhost:8545
+  password: nextpwd
+  main_wallet: '0x0060B2338DA4b8378fbaC26CD20511bF1A46839d'
+  contract_address: '0xbd684b55a091d877787076db74d3929834fb6ca4'
+  blockchain: 'https://ropsten.etherscan.io/tx/#{txid}'
+  address_url: 'https://ropsten.etherscan.io/address/#{address}'
+  gas_price: 36  #in Gwei

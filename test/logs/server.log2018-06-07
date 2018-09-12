@@ -1,0 +1,75 @@
+[2018-06-07T19:37:46.243] [INFO] logger - getBlockNumber>>> ERROR >>>[1528371466238]>>>  Error: CONNECTION ERROR: Couldn't connect to node 47.96.67.118:8545.
+    at Object.InvalidConnection (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\web3-core-helpers\src\errors.js:35:16)
+    at HttpProvider.send (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\web3-providers-http\src\index.js:90:25)
+    at RequestManager.send (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\web3-core-requestmanager\src\index.js:132:66)
+    at sendRequest (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\web3-core-method\src\index.js:562:42)
+    at Eth.send [as getBlockNumber] (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\web3-core-method\src\index.js:583:13)
+    at getBlockNumber (D:\mywok\blockchain\trunk\dax\lib\node\nodedaemons\test\test-web3-backup.js:13:42)
+    at Object.<anonymous> (D:\mywok\blockchain\trunk\dax\lib\node\nodedaemons\test\test-web3-backup.js:97:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+[2018-06-07T19:37:56.712] [INFO] logger - getBlockNumber>>> ERROR >>>[1528371476697]>>>  Error: CONNECTION ERROR: Couldn't connect to node 47.96.67.118.
+    at Object.InvalidConnection (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\web3-core-helpers\src\errors.js:35:16)
+    at HttpProvider.send (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\web3-providers-http\src\index.js:90:25)
+    at RequestManager.send (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\web3-core-requestmanager\src\index.js:132:66)
+    at sendRequest (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\web3-core-method\src\index.js:562:42)
+    at Eth.send [as getBlockNumber] (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\web3-core-method\src\index.js:583:13)
+    at getBlockNumber (D:\mywok\blockchain\trunk\dax\lib\node\nodedaemons\test\test-web3-backup.js:13:42)
+    at Object.<anonymous> (D:\mywok\blockchain\trunk\dax\lib\node\nodedaemons\test\test-web3-backup.js:97:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+[2018-06-07T19:38:09.227] [INFO] logger - getBlockNumber>>> ERROR >>>[1528371489169]>>>  Error: Invalid JSON RPC response: "<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+    at Object.InvalidResponse (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\web3-core-helpers\src\errors.js:42:16)
+    at XMLHttpRequest.request.onreadystatechange (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\web3-providers-http\src\index.js:73:32)
+    at XMLHttpRequestEventTarget.dispatchEvent (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\xhr2\lib\xhr2.js:64:18)
+    at XMLHttpRequest._setReadyState (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\xhr2\lib\xhr2.js:354:12)
+    at XMLHttpRequest._onHttpResponseEnd (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\xhr2\lib\xhr2.js:509:12)
+    at IncomingMessage.<anonymous> (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\xhr2\lib\xhr2.js:469:24)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+[2018-06-07T19:39:03.292] [INFO] logger - getBlockNumber>>> ERROR >>>[1528371522262]>>>  Error: Invalid JSON RPC response: ""
+    at Object.InvalidResponse (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\web3-core-helpers\src\errors.js:42:16)
+    at XMLHttpRequest.request.onreadystatechange (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\web3-providers-http\src\index.js:73:32)
+    at XMLHttpRequestEventTarget.dispatchEvent (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\xhr2\lib\xhr2.js:64:18)
+    at XMLHttpRequest._setReadyState (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\xhr2\lib\xhr2.js:354:12)
+    at XMLHttpRequest._onHttpRequestError (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\xhr2\lib\xhr2.js:544:12)
+    at ClientRequest.<anonymous> (D:\mywok\blockchain\trunk\dax\lib\node\node_modules\xhr2\lib\xhr2.js:414:24)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at Socket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+[2018-06-07T19:40:23.268] [INFO] logger - getBlockNumber>>> ERROR >>>[1528371623224]>>>  TypeError: Cannot read property 'hash' of null
+    at getBlockNumber (D:\mywok\blockchain\trunk\dax\lib\node\nodedaemons\test\test-web3-backup.js:22:31)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-06-07T19:49:45.591] [INFO] logger - getBlockNumber>>> ERROR >>>[1528372185495]>>>  TypeError: Cannot read property 'hash' of null
+    at getBlockNumber (D:\mywok\blockchain\trunk\dax\lib\node\nodedaemons\test\test-web3-backup.js:22:31)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-06-07T20:57:03.805] [INFO] logger - getBlockNumber>>> ERROR >>>[1528376223762]>>>  TypeError: Cannot read property 'hash' of null
+    at getBlockNumber (D:\mywok\blockchain\trunk\dax\lib\node\nodedaemons\test\test-web3-backup.js:22:31)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-06-07T20:57:15.202] [INFO] logger - getBlockNumber>>> ERROR >>>[1528376235161]>>>  TypeError: Cannot read property 'hash' of null
+    at getBlockNumber (D:\mywok\blockchain\trunk\dax\lib\node\nodedaemons\test\test-web3-backup.js:22:31)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)

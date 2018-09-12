@@ -1,0 +1,12 @@
+development: &defaults
+  erc20_query_host: 'test.tokenbalance.com' #token持有量查询网址
+  parity_url: 'http://10.35.11.56:8540' 
+
+test: &defaults
+  erc20_query_host: 'test.tokenbalance.com' #token持有量查询网址
+  parity_url: 'http://10.35.11.56:8540' 
+  
+production:
+  <<: *defaults
+  erc20_query_host: 'api.tokenbalance.com'
+  parity_url: 'http://localhost:8540'
